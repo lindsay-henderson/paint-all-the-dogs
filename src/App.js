@@ -9,7 +9,6 @@ import Process from './components/Process'
 function App() {
   return (
     <div className="App">
-      <Router>
         <Nav/>
         <main>
         <Routes>
@@ -21,7 +20,7 @@ function App() {
           element={<Contact/>} />
         </Routes>
         </main>
-      </Router>
+
     </div>
   );
 }
