@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom"
-import pdf from '../data/pdfs/Lindsay-N-Henderson-Resume.pdf'
+import'./NavBar.css'
 
 function Nav() {
   return (
-
         <nav className="nav-bar">
           <div className="home">
             <NavLink to='/'>
