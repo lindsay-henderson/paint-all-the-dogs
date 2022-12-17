@@ -5,7 +5,7 @@ export const ContactForm = () => {
 
 <form method="POST" action="/https://formspree.io/f/xoqzajpp">
   <label for="name">Full Name</label>
-  <input id="name" type="text" name="name" pattern="[A-Za-z]+" required />
+  <input id="name" type="text" name="name" pattern="[A-Z//a-z]+" required/>
 
   <label for="email">Email Address</label>
   <input id="email" type="email" name="email" required />
