@@ -1,9 +1,11 @@
 
 import './App.css';
 import {Route, Routes} from 'react-router-dom'
-import {Contact} from './components/Contact'
+import {ContactForm} from './components/ContactForm'
 import {Process} from './components/Process'
 import {Main} from './components/Main/Main'
+
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           <Route path='/process'
           element={<Process/>}/>,
           <Route path='contact' 
-          element={<Contact/>} />
+          element={<ContactForm/>} />
         </Routes>
         </main>
 
