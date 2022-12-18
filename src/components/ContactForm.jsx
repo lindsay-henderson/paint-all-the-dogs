@@ -1,85 +1,67 @@
-export const ContactForm = () => {
+import React, { useState } from "react";
 
-return(
-<>
-    <h3>Contact us</h3>
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-      <label for="Name" class="fcf-label">Your name</label>
-      <div class="fcf-input-group">
-        <input type="text" id="Name" name="Name" class="fcf-form-control" required/>
+const FORM_ENDPOINT = 'https://public.herotofu.com/v1/09bac3c0-7f1c-11ed-b38f-a1ed22f366b1'
+
+export const ContactForm = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const handleSubmit = () => {
+    setTimeout(() => {
+      setSubmitted(true);
+    }, 100);
+  };
+
+  if (submitted) {
+    return (
+      <>
+        <div className="text-2xl">Thank you!</div>
+        <div className="text-md">We'll be in touch soon.</div>
+      </>
+    );
+  }
+
+  return (
+    <form
+      action={FORM_ENDPOINT}
+      onSubmit={handleSubmit}
+      method="POST"
+      target="_blank"
+    >
+      <div className="mb-3 pt-0">
+        <input
+          type="text"
+          placeholder="Your name"
+          name="name"
+          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+          required
+        />
       </div>
-      <div class="fcf-form-group">
-        <label for="Email" class="fcf-label">Your email address</label>
-        <div class="fcf-input-group">
-          <input type="email" id="Email" name="Email" class="fcf-form-control" required/>
-        </div>
-        <div class="fcf-form-group">
-          <label for="Message" class="fcf-label">Your message</label>
-          <div class="fcf-input-group">
-            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-          </div>
-        </div>
-        <div class="fcf-form-group">
-          <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
-        </div>
+      <div className="mb-3 pt-0">
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+          required
+        />
+      </div>
+      <div className="mb-3 pt-0">
+        <textarea
+          placeholder="Your message"
+          name="message"
+          className="px-3 py-3 placeholder-gray-400 text-gray-600 relative bg-white bg-white rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+          required
+        />
+      </div>
+      <div className="mb-3 pt-0">
+        <button
+          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          type="submit"
+        >
+          Send a message
+        </button>
       </div>
     </form>
-</>
-)}
+  );
+};
 
-
-// <form method="POST" action="/https://formspree.io/f/xoqzajpp" enctype="multipart/form-data">
-//   <label for="name">Full Name</label>
-//   <input id="name" type="text" name="name"  
-//   // pattern="[A-Z//a-z]+" 
-//   required/>
-
-//   <label for="email">Email Address</label>
-//   <input id="email" type="email" name="email" required/>
-
-//   <label for="message">Message</label>
-//   <textarea id="message" name="message" required></textarea>
-
-//   <button type="submit">Submit</button>
-// </form>
-
-
-// import React from 'react';
-// import { useForm, ValidationError } from '@formspree/react';
-
-// export const ContactForm = () =>  {
-//   const [state, handleSubmit] = useForm("https://formspree.io/f/xoqzajpp");
-//   if (state.succeeded) {
-//       return <p>Thanks for joining!</p>;
-//   }
-//   return (
-//       <form onSubmit={handleSubmit}>
-//       <label htmlFor="email">
-//         Email Address
-//       </label>
-//       <input
-//         id="email"
-//         type="email" 
-//         name="email"
-//       />
-//       <ValidationError 
-//         prefix="Email" 
-//         field="email"
-//         errors={state.errors}
-//       />
-//       <textarea
-//         id="message"
-//         name="message"
-//       />
-//       <ValidationError 
-//         prefix="Message" 
-//         field="message"
-//         errors={state.errors}
-//       />
-//       <button type="submit" disabled={state.submitting}>
-//         Submit
-//       </button>
-//     </form>
-//   );
-// }
-
+export default ContactForm;
