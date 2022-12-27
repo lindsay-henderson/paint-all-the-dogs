@@ -7,11 +7,10 @@ import {Main} from './components/Main/Main'
 import NavBar from './components/NavBar/NavBar'
 
 
-
-
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+    <div className="bg-img">
       <NavBar/>
         <main>
         <Routes>
@@ -23,7 +22,7 @@ function App() {
           element={<ContactForm/>} />
         </Routes>
         </main>
-
+      </div>
     </div>
   );
 }

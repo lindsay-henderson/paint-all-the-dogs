@@ -1,0 +1,22 @@
+#myCarousel {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.img-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 700px;
+  height: auto;
+}
+
+h2 {
+  color: orange
+}
