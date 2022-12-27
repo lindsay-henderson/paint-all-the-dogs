@@ -1,9 +1,11 @@
 #myCarousel {
-  height: 700px;
+  height: 400px;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
 
+.carousel-inner {
+  height: 400px;
 }
 
 .img-frame {
@@ -13,6 +15,7 @@
 }
 
 img {
+  margin: 10%;
   max-width: 700px;
   height: auto;
 }
