@@ -2,7 +2,7 @@ nav {
   height: 100px;
   width: 100%; 
   display: flex;
-  background-color: purple;
+  background: none;
   align-items: center;
   position: sticky;
   top: 0;

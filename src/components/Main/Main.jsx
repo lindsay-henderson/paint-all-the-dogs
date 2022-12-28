@@ -7,9 +7,9 @@ import { Portraits } from '../Portraits';
 export const Main = (props) => {
   return (
     <div>
-      <About />
       <Portraits/>
-      <Process />
+      <About/>
+      <Process/>
       <ContactForm/>
     </div>
   )

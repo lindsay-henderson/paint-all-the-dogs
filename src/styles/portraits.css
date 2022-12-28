@@ -1,11 +1,11 @@
 #myCarousel {
-  height: 400px;
+  height: 550px;
   display: flex;
   justify-content: center;
 }
 
 .carousel-inner {
-  height: 400px;
+  height: 500px;
 }
 
 .img-frame {
@@ -16,7 +16,8 @@
 
 img {
   margin: 10%;
-  max-width: 700px;
+  padding: 15px;
+  max-width: 600px;
   height: auto;
 }
 
