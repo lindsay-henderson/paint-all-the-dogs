@@ -3,7 +3,6 @@ export const Portraits= () => {
 
   return (
     <section >
-      <h2>testing!!!</h2>
       <div id="myCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">
