@@ -4,7 +4,7 @@ import {Route, Routes} from 'react-router-dom'
 import {ContactForm} from './components/ContactForm'
 import {Ordering} from './components/Ordering'
 import {Main} from './components/Main/Main'
-import NavBar from './components/NavBar/NavBar'
+import Nav from './components/NavBar/NavBar'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 import { grey } from '@mui/material/colors';
 
@@ -21,15 +21,13 @@ function App() {
     <div className="app">
     <div className="bg-img">
     <ThemeProvider theme={theme}>
-      <NavBar/>
+      <Nav/>
         <main>
         <Routes>
           <Route path='/' 
           element={<Main/>} />,
           <Route path='/ordering'
           element={<Ordering/>} />
-          {/* <Route path='/process'
-          element={<Process/>}/>, */}
           <Route path='contact' 
           element={<ContactForm/>} />
         </Routes>

@@ -1,11 +1,12 @@
 #myCarousel {
-  height: 550px;
+  height: 400px;
   display: flex;
   justify-content: center;
+  margin: 10px
 }
 
 .carousel-inner {
-  height: 500px;
+  height:fit-content
 }
 
 .img-frame {
@@ -15,8 +16,7 @@
 }
 
 img {
-  max-width: 600px;
-
+  max-width: 400px;
 }
 
 h2 {
@@ -37,14 +37,11 @@ h2 {
 }
 
 @media screen and (min-width: 800px) {
-  #myCarousel {
-    height: 500px;
+  #myCarousel, .carousel-inner {
+    height:700px;
     margin: 50px;
   }
-
-  {
     img {
-      max-width: 700
+      max-width: 700px;
     }
   }
-}
