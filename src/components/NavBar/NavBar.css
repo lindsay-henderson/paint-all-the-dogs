@@ -1,8 +1,8 @@
 nav {
+  background: none;
   height: 100px;
   width: 100%; 
   display: flex;
-  background: none;
   align-items: center;
   position: sticky;
   top: 0;
@@ -10,6 +10,6 @@ nav {
 }
 
 #pawprint {
-  height: 80px;
+  height: 100px;
   width: auto;
 }
