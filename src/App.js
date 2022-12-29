@@ -5,12 +5,22 @@ import {ContactForm} from './components/ContactForm'
 import {Ordering} from './components/Ordering'
 import {Main} from './components/Main/Main'
 import NavBar from './components/NavBar/NavBar'
+import { createTheme, ThemeProvider } from '@mui/material/styles'
+import { grey } from '@mui/material/colors';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main:grey[900],
+      darker: '#37474f'
+  }}
+})
 
 function App() {
   return (
     <div className="app">
     <div className="bg-img">
+    <ThemeProvider theme={theme}>
       <NavBar/>
         <main>
         <Routes>
@@ -24,6 +34,7 @@ function App() {
           element={<ContactForm/>} />
         </Routes>
         </main>
+        </ThemeProvider>
       </div>
     </div>
   );

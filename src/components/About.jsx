@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className="about" id="about">
       <a href='/ordering'>
-        <Button variant="outlined">Order a Portrait</Button>
+        <Button className='button' variant="contained" size='large'>Order a Portrait</Button>
         </a>
       <h1>Hi! My Name is Lindsay.</h1>
 
