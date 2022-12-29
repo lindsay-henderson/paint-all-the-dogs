@@ -6,7 +6,7 @@ export const Nav = () => {
         <nav className="nav-bar">
           <div className="home">
             <NavLink to='/'>
-              <img src="" alt=""/>
+              <img id="pawprint" src="./paintings/pawprint.png" alt=""/>
               </NavLink>
           </div>
           <div className="links">
