@@ -10,6 +10,10 @@
 }
 
 .info-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 20px;
 }
@@ -26,4 +30,23 @@
 #banner-image > img {
   height: 450px;
   width:auto
+}
+
+@media screen and (min-width: 800px) {
+  #button-banner {
+    flex-direction: row;
+  }
+
+  #banner-image {
+    height: 700px;
+  }
+  
+  #banner-image > img {
+    height: 700px;
+    margin-left: 100px;
+  }
+  
+  button {
+    max-width: 500px;
+  }
 }

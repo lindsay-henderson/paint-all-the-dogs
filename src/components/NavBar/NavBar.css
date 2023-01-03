@@ -1,5 +1,5 @@
 nav {
-  background: white;
+  background: linear-gradient(rgba(255,255,255,.9),rgb(255, 255, 255,.8));
   height: 100px;
   width: 100%; 
   display: flex;
