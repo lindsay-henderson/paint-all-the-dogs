@@ -1,6 +1,5 @@
 import'../styles/portraits.css'
 import * as React from 'react';
-import Button from '@mui/material/Button';
 
 export const Portraits= () => {
   return (
@@ -24,11 +23,6 @@ export const Portraits= () => {
           </div>
         </div>
       </div>
-      <div className='info-button'>
-        
-          <Button className='button' variant="contained" size='large'><a href='/ordering'>Order a Portrait</a></Button>
-        
-      </div>    
     </section>
 
   )

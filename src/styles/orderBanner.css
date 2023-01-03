@@ -1,0 +1,29 @@
+#button-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  background-image: url('../../public/yellow-paint.png');
+  background-size: cover;
+}
+
+.info-button {
+  width: 100%;
+  margin: 20px;
+}
+
+.info-button > p {
+  margin: 20px 40px;
+}
+
+#banner-image {
+  height: 450px;
+  width: fit-content;
+}
+
+#banner-image > img {
+  height: 450px;
+  width:auto
+}

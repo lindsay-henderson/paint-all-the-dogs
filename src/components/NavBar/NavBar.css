@@ -10,6 +10,15 @@ nav {
 }
 
 #pawprint {
-  height: 100px;
+  height: 60px;
   width: auto;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 800px) {
+  #pawprint {
+    height:80px;
+    width: auto;
+    margin: 10px;
+  }
 }
