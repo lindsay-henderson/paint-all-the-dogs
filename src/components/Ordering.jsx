@@ -16,7 +16,7 @@ export const  Ordering = ()=> {
       <div id='process'>
         <h1>Process for Ordering</h1>
         <div className="process-explanation">
-          <a href="mailto:{paintallthedogs@gmail.com}?subject={subject}&body={content}"><h4>Email paintallthedogs@gmail.com</h4></a>
+          <a href="mailto:paintallthedogs@gmail.com?subject=subject&body=content"><h4>Email paintallthedogs@gmail.com</h4></a>
           <p className="p1">To best capture you pet's personality, I base my painting on one of your favorite photos. Send me the photo you would like me to use, along with any other photos that might be a good reference for their markings, or personality. I love hearing about each special animal. </p>
 
           <p className="p2"> When the portrait is completed, I will send you an email with a digital photo of the painting and confirm your mailing address.  Your painting will be shipped ready to frame in a white 11x14 matboard. I will provide you with a tracking number.</p>
