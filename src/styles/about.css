@@ -8,6 +8,7 @@
     background-image: url('../../public/blue.png');
     background-size: cover;
     margin-top: 75px;
+    font-size: large;
 }
 
 .about-me {
@@ -22,6 +23,7 @@
 @media screen and (min-width: 800px) {
   .about {
     flex-direction: row;
+    height: 300px;
   }
 
   .about-me {
