@@ -39,11 +39,12 @@
 
   #banner-image {
     height: 700px;
+    margin-left: 5%;
   }
   
   #banner-image > img {
     height: 700px;
-    margin-left: 100px;
+
   }
   
   button {
