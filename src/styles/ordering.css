@@ -1,0 +1,40 @@
+.size-price {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.ordering {
+  margin: 20px;
+
+}
+
+.process-explanation {
+  padding:10px;
+  background: linear-gradient(rgba(255,255,255,.9),rgb(255, 255, 255,.8));
+}
+
+@media screen and (min-width: 800px) {
+
+  .size-price {
+    flex-direction: row;
+    height: 600px;
+  }
+
+  .size-price > img {
+    height: 600px;
+  }
+
+  .process-explanation {
+    font-size: 20px;
+    padding: 50px 100px;
+  }
+
+  #process {
+    margin: 50px;
+    padding: 25px 100px;
+  }
+}
