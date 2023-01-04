@@ -7,8 +7,12 @@ export const Nav = () => {
           <div className="home">
             <NavLink to='/'>
               <img id="pawprint" src="./paintings/pawprint.png" alt=""/>
-              </NavLink>
+            </NavLink>
           </div>
+          <div id='header'>
+            <h1>Paint All the Dogs</h1>
+          </div>
+          
         </nav>
   )
 }
