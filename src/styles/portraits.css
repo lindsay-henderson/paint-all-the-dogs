@@ -6,6 +6,12 @@
   z-index:0;
 }
 
+#intro-text {
+  font-family: 'Beth Ellen';
+  font-size:18px;
+  margin-bottom: 20px;
+}
+
 .carousel-inner {
   height:fit-content
 }

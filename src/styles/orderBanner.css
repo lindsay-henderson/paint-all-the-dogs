@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 720px;
   width: 100%;
   background-image: url('../../public/yellow-paint.png');
   background-size: cover;
@@ -18,8 +18,11 @@
   margin: 20px;
 }
 
+.info-button > h2 {
+  margin: 10px 0 0 0;
+}
 .info-button > p {
-  margin: 20px 40px;
+  margin: 15px 40px;
 }
 
 #banner-image {
@@ -29,7 +32,8 @@
 
 #banner-image > img {
   height: 450px;
-  width:auto
+  width:auto;
+  margin: 20px;
 }
 
 @media screen and (min-width: 800px) {

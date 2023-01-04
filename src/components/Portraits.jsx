@@ -4,6 +4,7 @@ import * as React from 'react';
 export const Portraits= () => {
   return (
     <section >
+      <h3 id='intro-text'>Watercolor Pet Portraits</h3>
       <div id="myCarousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">

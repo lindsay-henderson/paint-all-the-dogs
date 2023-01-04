@@ -12,7 +12,6 @@ export const Nav = () => {
           <div id='header'>
             <h1>Paint All the Dogs</h1>
           </div>
-          
         </nav>
   )
 }

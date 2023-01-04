@@ -15,9 +15,18 @@
   margin: 20px;
 }
 
+.about-me > p {
+  margin: 0;
+}
+.about-me > h2 {
+  font-family: 'Beth Ellen';
+  margin: 25px;
+}
+
 .about-me > img {
   height: 200px;
   width: auto;
+  margin: 20px;
 }
 
 @media screen and (min-width: 800px) {
