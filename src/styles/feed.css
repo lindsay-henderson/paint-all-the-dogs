@@ -1,0 +1,21 @@
+#feed-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+}
+
+#instabox {
+  margin: 20px;
+}
+#feed-info > div {
+height:fit-content;
+margin: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  #feed-info {
+    flex-direction: row;
+  }
+}

@@ -1,7 +1,7 @@
 import {About} from '../About'
-import {ContactForm} from '../ContactForm';
 import { Portraits } from '../Portraits';
 import { OrderBanner } from '../OrderBanner';
+import { Feed } from '../Feed';
 
 
 export const Main = (props) => {
@@ -10,7 +10,7 @@ export const Main = (props) => {
       <Portraits/>
       <OrderBanner/>
       <About/>
-      <ContactForm/>
+      <Feed/>
     </div>
   )
 }
