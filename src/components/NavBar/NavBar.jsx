@@ -9,9 +9,6 @@ export const Nav = () => {
               <img id="pawprint" src="./paintings/pawprint.png" alt=""/>
               </NavLink>
           </div>
-          <div className="links">
-            <NavLink to='/contact'>Contact</NavLink>
-          </div>
         </nav>
   )
 }

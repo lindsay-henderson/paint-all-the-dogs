@@ -7,9 +7,18 @@
   text-align: left;
 }
 
+.process-explanation > a {
+  text-decoration: none;
+  color: #035E7B;
+}
+
+.process-explanation > a > h4:hover {
+  color: #002E2C;
+  /* background: linear-gradient(rgba(255, 203, 71,.5), rgb(255, 203, 71,.3)); */
+} 
+
 .ordering {
   margin: 20px;
-
 }
 
 .process-explanation {

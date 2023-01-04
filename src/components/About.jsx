@@ -1,12 +1,16 @@
+import '../styles/about.css'
 import * as React from 'react';
 
 export const About = () => {
   return (
     <div className="about" id="about">
-
-      <h2>Hi! My Name is Lindsay.</h2>
-
-      <p>I am a lifelong artist and animal lover.  I started painting pets because I wanted to give creative gifts to my friends and family that were personal and meaningful. I love getting to see photos of people's special family members, and hope that I can bring joy through my work. </p>
+      <div className='about-me'>
+      <h2>Hi! I'm Lindsay.</h2>
+        <p>I am a lifelong artist and animal lover.  I began painting pets because I wanted to give creative gifts to my friends and family that were personal and meaningful. Now, through my business, I have the privilege of learning about  even more special animals. My goal as an artist is, and has always been, to bring happiness through my work. </p>
+      </div>
+      <div className='about-me'>
+      <img src="/menrusty.JPG" alt="Lindsay next to a white dog" />
+      </div>
     </div>
   )
 }

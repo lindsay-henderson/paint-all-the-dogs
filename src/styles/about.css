@@ -1,1 +1,34 @@
-import
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 600px;
+    width: 100%;
+    background-image: url('../../public/blue.png');
+    background-size: cover;
+    margin-top: 75px;
+}
+
+.about-me {
+  margin: 20px;
+}
+
+.about-me > img {
+  height: 200px;
+  width: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    flex-direction: row;
+  }
+
+  .about-me {
+    max-width: 640px;
+  }
+
+  .about-me > img {
+    height: 300px;
+  }
+}
