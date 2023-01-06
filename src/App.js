@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Route, Routes} from 'react-router-dom'
+import { Routes, Route} from 'react-router-dom'
 import {ContactForm} from './components/ContactForm'
 import {Ordering} from './components/Ordering'
 import {Main} from './components/Main/Main'
@@ -31,7 +31,6 @@ function App() {
           element={<Ordering/>} />
           <Route path='/contact' 
           element={<ContactForm/>} />
-          
         </Routes>
         </main>
         </ThemeProvider>
