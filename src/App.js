@@ -1,7 +1,6 @@
 
 import './App.css';
 import { Routes, Route} from 'react-router-dom'
-import {ContactForm} from './components/ContactForm'
 import {Ordering} from './components/Ordering'
 import {Main} from './components/Main/Main'
 import Nav from './components/NavBar/NavBar'
@@ -29,8 +28,6 @@ function App() {
           element={<Main/>} />,
           <Route path='/ordering'
           element={<Ordering/>} />
-          <Route path='/contact' 
-          element={<ContactForm/>} />
         </Routes>
         </main>
         </ThemeProvider>
