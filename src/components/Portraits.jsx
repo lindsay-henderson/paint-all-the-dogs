@@ -1,7 +1,9 @@
 import'../styles/portraits.css'
 import * as React from 'react';
+import 'aos/dist/aos.css';
 
 export const Portraits= () => {
+
   return (
     <section >
       <h3 id='intro-text'>Watercolor Pet Portraits</h3>
