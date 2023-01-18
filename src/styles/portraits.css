@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-img {
+.img-frame img {
   max-width: 400px;
 }
 
@@ -48,7 +48,7 @@ h2 {
     height:700px;
     margin: 10px 50px;
   }
-    img {
+  .img-frame img {
       max-width: 700px;
     }
 
