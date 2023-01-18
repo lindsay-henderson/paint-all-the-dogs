@@ -8,10 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:10px;
+  margin:30px 10px;
 }
 
-#instabox {
+#feed-info h2 {
+  font-family: 'Beth Ellen';
+  margin: 10px 10px 30px 10px;
+}
+
+#instabox a img {
+  height: 50px;
   margin: 20px;
 }
 
@@ -21,7 +27,4 @@ margin: 10px;
 }
 
 @media screen and (min-width: 800px) {
-  #feed-info {
-    flex-direction: row;
-  }
 }

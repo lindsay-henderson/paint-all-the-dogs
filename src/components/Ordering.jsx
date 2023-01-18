@@ -7,7 +7,7 @@ export const  Ordering = ()=> {
     <>   
     <div id='key-details'>
       <div id="order-image">
-        <img src='/paintings/comet.jpg' alt="a tan cat with brown stripes" />
+        <img src='/paintings/comet.jpg' alt="a side view of a persian cat with a blue crown" />
       </div>
       <div className="numbers">
         <h2>Original Watercolor</h2>
