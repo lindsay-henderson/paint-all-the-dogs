@@ -7,9 +7,7 @@ In my spare time I paint watercolor commissions for clients.  This website is to
 
 This site was an opportunity to explore design elements used in React.
 
-Design sources include: Bootstrap, MUI, and AOS
-
-Favicon and all artwork by Lindsay Henderson
-
-Instagram icon by Icons8
+* Design tools include: Bootstrap, MUI, and AOS
+* Favicon and all artwork by Lindsay Henderson
+* Instagram icon by Icons8
 

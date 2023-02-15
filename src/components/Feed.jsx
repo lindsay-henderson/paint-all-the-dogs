@@ -8,7 +8,8 @@ export const Feed = () => {
 
 <div id='feed-info'>
     <h2>Let's stay in touch</h2>
-    <h3>Collab Ideas? | Questions? | Cookie Recipes?</h3>
+    <h3 className='desktop'>Collab Ideas? | Questions? | Cookie Recipes?</h3>
+    <h3 className='mobile'>Collab Ideas? | Questions? <br/> Cookie Recipes?</h3>
   
   <div id='instabox'>
     <Button className='button' variant="contained" size='large'><a href="mailto:paintallthedogs@gmail.com?subject=subject&body=content"><p>Email Me</p></a></Button>
