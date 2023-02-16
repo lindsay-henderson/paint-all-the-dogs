@@ -22,7 +22,7 @@ export const  Ordering = ()=> {
           <div className='size-price'>
           <div className ='price'>
             <h4>5X7 inches</h4>
-            <h4>$65</h4>
+            <h4>$75</h4>
             </div>
           </div>
         </div>
