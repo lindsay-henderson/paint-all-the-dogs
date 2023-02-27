@@ -15,7 +15,7 @@ export const  Ordering = ()=> {
           <div className='size-price'>
             <div className ='price'>
             <h4>9X12 inches</h4>
-            <h4>$175</h4>
+            <h4>$150</h4>
             </div>
             <p>Your painting will be in a white 11x14 matboard. <br/> ready to frame</p>
           </div>
