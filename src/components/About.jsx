@@ -7,7 +7,7 @@ export const About = () => {
     data-aos-duration="1000">
       <div className='about-me'>
       <h2>Hi! I'm Lindsay.</h2>
-        <p>I am a lifelong artist and animal lover.  I began painting pets because I wanted to give creative gifts to my friends and family that were personal and meaningful. Over the past few years I have the privilege of learning about  many special animals. My goal as an artist is, and has always been, to bring happiness through my work. </p>
+        <p>I am a lifelong artist and animal lover.  I began painting pet portraits because I wanted to give creative gifts to my friends and family that were personal and meaningful. I feel fortunate to have had the privilege of learning about many special animals over the past few years. <br></br> My goal as an artist is, and has always been, to make the world a little brighter through my work. </p>
       </div>
       <div className='about-me'>
       <img src="/menrusty.JPG" alt="Lindsay next to a white dog" />
