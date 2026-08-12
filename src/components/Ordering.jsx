@@ -43,6 +43,9 @@ export const  Ordering = ()=> {
           <p className="p3">The whole process takes 6-8 weeks for a 9X12 portrait, 1-2 weeks for a 5X7 portrait.</p>
 
           <p>Multiple pets look great together! 50$ for each additional pet in a 9X12 portrait.</p>
+                <div id="order-image">
+        <img src='/paintings/mr-pickles.jpg' alt="an orange cat lying down next to sunflowers" />
+      </div>
           <h4>Free shipping within United States</h4>
       </div>
       </div>
