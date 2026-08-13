@@ -11,7 +11,7 @@ export const Portraits= () => {
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
             <div className='img-frame'>
-              <img src="paintings/mr-pickles.jpg" className="d-block w-100" alt="..."/>
+              <img src="paintings/pooldog.jpg" className="d-block w-100" alt="..."/>
             </div>
           </div> 
           <div className="carousel-item">
